@@ -1,0 +1,44 @@
+.planet-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.planet-img {
+  height: 180px;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .planet-img {
+    height: 250px;
+    width: 300px;
+  }
+}
+
+.planet-name {
+  color: #f8fafc;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .planet-name {
+    font-size: 27px;
+  }
+}
+
+.description {
+  color: #f1f5f9;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+  }
+}
